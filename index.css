@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(70, 69, 69);
+    color:#fff;
+}
+#heading{
+    background-color: #212121;
+    height:13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:yellow;
+    text-shadow: 1px 2px 2px rgb(1, 254, 1);
+}
+#instructions{
+    margin: 4vh 0 4vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.intro{
+    margin-bottom: 2vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form label{
+    cursor: pointer;
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(2, 180, 251);
+    text-shadow: 4px 4px 3px blue;
+}
+#input{
+    height:5vh;
+    width:290px;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 5px 5px 5px 2px black;
+    margin-bottom: 2vh;
+}
+#input:hover{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.3s;
+    transform: scale(1.1);
+    background-color: aquamarine;
+}
+#input:focus{
+    border:green solid 4px;
+    background-color: lightgreen;
+}
+#subbtn{
+    height:8vh;
+    width:160px;
+    font-size: 1.4rem;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:red;
+    text-shadow: 1px 1px 2px orangered;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 4px 5px 3px black;
+    background-color: rgb(237, 245, 3);
+    
+}
+#subbtn:hover{
+    
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.3s;
+    transform: scale(1.2);
+    background-color: rgb(133, 173, 14);
+}
+
+#game-result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vh;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+#button{
+        height:6vh;
+        width:140px;
+        font-size: 1rem;
+        font-weight: 800;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:red;
+        text-shadow: 1px 1px 2px orangered;
+        cursor: pointer;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 4px 4px 5px 3px black;
+        background-color: rgb(237, 245, 3);
+        
+    }
+    #button:hover{
+        
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0.3s;
+        transform: scale(1.1);
+        background-color: rgb(133, 173, 14);
+    }
